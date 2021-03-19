@@ -13,14 +13,14 @@ git clone https://github.com/DrD3ViLaM/FileTransfer
 cd FileTransfer
 
 
-###### dont forget to change ip,port in both client.py and server.py files
-###### you must run server.py file on file sender system with :
+##### dont forget to change ip,port in both client.py and server.py files
+##### you must run server.py file on file sender system with :
 chmod +x server.py
 ./server.py
 
 
 
-###### and run client.py on reciever system with :
+##### and run client.py on reciever system with :
 chmod +x client.py
 ./client.py
 
