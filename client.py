@@ -10,6 +10,9 @@ from modules.modules import get_file_size, make_path , helper
 system("clear")
 print(colorama.Fore.RED+helper.__doc__)
 
+ip = "127.0.0.1"
+port = 9080
+
 # Creating Socket Connection 
 sock_conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -18,7 +21,7 @@ for i in colorama.Fore.LIGHTGREEN_EX+"[+] Client is searching for a connection\n
     sys.stdout.flush()
     sleep(0.2)
 
-sock_conn.connect(("127.0.0.1",9080))
+sock_conn.connect((ip,port))
 
 file_size = sock_conn.recv(1024).decode()
 
