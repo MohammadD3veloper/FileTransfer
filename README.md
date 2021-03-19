@@ -13,7 +13,8 @@ git clone https://github.com/DrD3ViLaM/FileTransfer
 cd FileTransfer
 
 
-##### dont forget to change ip,port in both client.py and server.py files
+##### dont forget to change ip,port in both client.py and server.py files & installing colorama library using pip
+pip install colorama
 ##### you must run server.py file on file sender system with :
 chmod +x server.py
 ./server.py
