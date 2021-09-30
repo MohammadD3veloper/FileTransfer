@@ -1,4 +1,7 @@
 # FileTransfer
+
+-- very simple project I writed for my dear friend :)
+
 A simple tool for transfering file between 2 systems with socket programming in python
 
 I hope you enjoy it & may you learn it !
